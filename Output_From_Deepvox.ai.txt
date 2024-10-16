@@ -1,0 +1,73 @@
+System_Prompt i have used = """You are a well-informed assistant. Use the following pieces of context to answer the question at the end.
+If you don't know the answer, simply state that you don't know; do not attempt to fabricate an answer.
+Keep your response to three sentences maximum and ensure it is concise.
+Always return the answer in JSON format, including the source of the document.""
+
+
+Input:
+What is Deepvox.ai?
+
+Output:
+{'result': '```json\n{\n "answer": "Deepvox.ai is a company that provides AI and automation solutions to businesses.  They specialize in generative AI, predictive analytics, and intelligent systems to drive innovation and efficiency across industries.  Their services include things like multilingual customer support and AI-assisted voice bots.",\n "source": "https://deepvox.ai/, https://deepvox.ai/services.html"\n}\n```'}
+
+
+Input:
+what is Deepvox.ai
+
+Output:
+{'result': '```json\n{\n "answer": "Deepvox.ai is a company that provides AI and automation solutions to businesses.  They specialize in generative AI, predictive analytics, and intelligent systems to drive innovation and efficiency across industries.  Their services include things like AI-assisted voice bots and computer vision systems for quality control.",\n "source": "https://deepvox.ai/ and https://deepvox.ai/services.html"\n}\n```'}
+
+Input:
+How to works Deepvox.ai
+
+Output:
+{'result': '```json\n{\n "answer": "The context provided does not explain how Deepvox.ai works, it mainly describes the company\'s vision, services, and frequently asked questions.",\n "source": "null"\n}\n```'}
+
+Input:
+What services are provide by deepvox.ai
+
+Output:
+{'result': '```json\n{\n "answer": "Deepvox.ai provides services such as AI-assisted voice bots for multilingual customer support and healthcare appointment scheduling, digital marketing AI, AI-assisted chatbots for customer service, and computer vision for quality control in manufacturing.",\n "source": "https://deepvox.ai/services.html"\n}\n```'}
+
+Input:
+How is the review of healthcare appointment scheduling
+
+Output:
+{'result': '```json\n{\n "answer": "The document describes an AI-assisted voice bot that reduced appointment booking time and decreased no-show rates, but it does not contain information on the review process for healthcare appointment scheduling.",\n "source": "No specific source found."\n}\n```'}
+
+Input:
+computer vision for quality control in manufacturing
+
+Output:
+{'result': '```json\n{\n "answer": "DeepVox AI implemented an AI-powered visual inspection system to increase defect detection accuracy to 99.7%, up from 92% with human inspectors. This reduced quality control costs by 40% while increasing throughput by 25%.",\n "source": "https://deepvox.ai/services.html"\n}\n```'}
+
+Input:
+How to do connect with their team.
+
+Output:
+{'result': '```json\n{\n "answer": "The provided context does not contain the answer to how to connect with the team. However, it does mention that the company is located in T-Hub, Hyderabad, Serilingampalle (M), Telangana 500081, and their email address is info@deepvox.ai.",\n "source": "https://deepvox.ai/contact.html"\n}\n```'}
+
+Input:
+can ai help me to personlize my marketing campigans
+
+Output:
+{'result': '```json\n{\n "answer": "Yes, AI can analyze customer data to create highly targeted, personalized marketing strategies that significantly boost engagement. This information is sourced from DeepVox-AI\'s FAQs page.",\n "source": "https://deepvox.ai/faqs.html"\n}\n```'}
+
+Input:
+How can ai improve my customer service operations
+
+Output:
+{'result': '```json\n{\n "answer": "AI chatbots and voice bots can handle customer queries 24/7, reducing response times and improving customer satisfaction. This allows human agents to focus on more complex issues, leading to better overall service.",\n "source": "https://deepvox.ai/services.html"\n}\n```'}
+
+Input:
+Can AI assist in making better bussines desicions
+
+Output:
+{'result': '```json\n{\n "answer": "Yes, AI can help make superior business decisions.  AI\'s predictive analytics can process large amounts of data to deliver actionable insights.  These insights lead to more informed decision-making.",\n "source": "https://deepvox.ai/services.html"\n}\n```'}
+
+Input:
+what is deepvox mission and vision
+
+Output:
+{'result': '```json\n{\n "answer": "DeepVox AI\'s mission is to revolutionize businesses with cutting-edge AI and automation solutions, aiming to streamline processes, foster innovation, and drive efficiency across industries. Their vision is to shape the future where AI and automation are at the core of every industry, making AI accessible and impactful for businesses of all sizes to drive innovation, growth, efficiency, and success.",\n "source": "https://deepvox.ai/about.html"\n}\n```'}
+
